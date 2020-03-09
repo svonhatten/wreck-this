@@ -1,0 +1,24 @@
+.home {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.navBarContainer {
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: blue;
+}
+.titleContainer {
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+}
+.bodyContainer {
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+
