@@ -1,24 +1,38 @@
 .home {
     height: 100%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-}
-.navBarContainer {
-    flex: 1;
+    /* flex: 1; */
     flex-direction: column;
     justify-content: space-between;
+    /* align-items: center; */
+
+}
+.navBarContainer {
+    height: 60px;
+    /* flex: 1; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: blue;
 }
 .titleContainer {
-    flex: 1;
+    height: 640px;
+    /* flex: 2; */
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    background-color: black;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
 }
 .bodyContainer {
-    flex: 1;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: white;
+    height: 600px;
+    /* flex: 3; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
 }
 

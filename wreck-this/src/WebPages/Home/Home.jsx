@@ -8,11 +8,21 @@ class Home extends Component {
             <div>
                 <div className={'home'}>
                     {/* navigation bar */}
-                    <div className={'navBarContainer'}>navbar</div>
+                    <div className={'navBarContainer'}>
+                        navbar
+                        {/* logo */}
+                        {/* WreckIt title */}
+                        {/* container for destruction options on right side */}
+                    </div>
                     {/* title section (the black part of screen) */}
-                    <div className={'titleContainer'}>Wreck This Website</div>
-                    <div className={'bodyContainer'}>Destruction Choices</div>
+                    <div className={'titleContainer'}>
+                        <div>Wreck This Website</div>
+                        <div>* * * The site to relieve all your stress * * *</div>
+                    </div>
                     {/* bottom section (everything below title section) */}
+                    <div className={'bodyContainer'}>
+                        Destruction Choices
+                    </div>
                 </div>
             </div>
         );
