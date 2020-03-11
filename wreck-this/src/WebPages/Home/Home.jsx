@@ -9,15 +9,15 @@ class Home extends Component {
                 <div className={'home'}>
                     {/* navigation bar */}
                     <div className={'navBarContainer'}>
-                        navbar
                         {/* logo */}
-                        {/* WreckIt title */}
+                        <div className={'navBarLogo'}>logo</div>
+                        <div className={'navBarText'}>WreckIt</div>
                         {/* container for destruction options on right side */}
                     </div>
                     {/* title section (the black part of screen) */}
                     <div className={'titleContainer'}>
-                        <div>Wreck This Website</div>
-                        <div>* * * The site to relieve all your stress * * *</div>
+                        <div className={'titleText'}>Wreck This Website</div>
+                        <div className={'titleSubtext'}>* * * The site to relieve all your stress * * *</div>
                     </div>
                     {/* bottom section (everything below title section) */}
                     <div className={'bodyContainer'}>
