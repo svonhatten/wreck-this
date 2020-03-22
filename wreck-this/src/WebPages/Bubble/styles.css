@@ -1,0 +1,83 @@
+.bubblePage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.navBarContainer {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005073;
+    box-shadow: 0 5px 5px 5px #189AD3;
+    position:relative;
+    z-index: 10;
+}
+
+.navBarLogo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #C18BEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.navBarText {
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 1150px;
+}
+
+.navBarDestr {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: space-between;
+    /* background-color: blue; */
+    margin-right: 20px;
+}
+
+.navBarDestrLogo {
+    height: 40px;
+    max-width: 40px;
+    border-radius: 20px;
+    /* background-color: #C18BEF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.navBarDestrText {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #71C7EC;
+}
+
+.main {
+    height: 830px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #71C7EC, #005073);
+}
+
+.mainText {
+    color: white;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
