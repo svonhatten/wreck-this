@@ -13,7 +13,7 @@
     /* flex: 1; */
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
     background-color: #2B2929;
     box-shadow: 0 5px 5px 5px #000000;
@@ -29,13 +29,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .navBarText {
     color: white;
     font-size: 1.2rem;
-    padding-left: 15px;
+    margin-right: 1150px;
+}
+
+.navBarDestr {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: space-between;
+    /* background-color: blue; */
+    margin-right: 20px;
+}
+
+.navBarDestrLogo {
+    height: 40px;
+    max-width: 40px;
+    border-radius: 20px;
+    /* background-color: #C18BEF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.navBarDestrText {
+    color: #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #C18BEF;
 }
 
 .titleContainer {
@@ -67,9 +99,127 @@
     height: 600px;
     /* flex: 3; */
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
     background-color: white;
+}
+
+.bodyTitleText {
+    color: black;
+    font-size: 2.0rem;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.bodyTitleSubtext {
+    color: #707070;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    margin-bottom: 65px;
+}
+
+.destrChoicesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bubbleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    /* background-color: blue; */
+}
+
+.bubbleImage {
+    height: 244.5px;
+    width: 427px;
+    border-radius: 30px;
+    background-color: lightblue;
+}
+
+.bubbleText {
+    color: black;
+    font-size: 1.75rem;
+    margin-top: 10px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #107DAC;
+}
+
+.bubbleSubtext {
+    color: #707070;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.ripContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    /* background-color: green; */
+}
+
+.ripImage {
+    height: 244.5px;
+    width: 427px;
+    border-radius: 30px;
+    background-color: lightgreen;
+}
+
+.ripText {
+    color: black;
+    font-size: 1.75rem;
+    margin-top: 10px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #0B6623;
+}
+
+.ripSubtext {
+    color: #707070;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.explosionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    /* background-color: red; */
+}
+
+.explosionImage {
+    height: 244.5px;
+    width: 427px;
+    border-radius: 30px;
+    background-color: pink;
+}
+
+.explosionText {
+    color: black;
+    font-size: 1.75rem;
+    margin-top: 10px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #DE4242;
+}
+
+.explosionSubtext {
+    color: #707070;
+    font-size: 1.5rem;
+    margin-top: 20px;
 }
 
