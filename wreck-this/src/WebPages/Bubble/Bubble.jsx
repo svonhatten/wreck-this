@@ -13,8 +13,10 @@ class Bubble extends Component {
                     {/* nav bar */}
                     <div className={'navBarContainer'}>
                         {/* logo */}
-                        <div className={'navBarLogo'}>logo</div>
-                        <div className={'navBarText'}>WreckIt</div>
+                        <div className={'navBarLogoContainer'}>
+                            <div className={'navBarLogo'}>logo</div>
+                            <div className={'navBarText'}>WreckIt</div>
+                        </div>
                         {/* container for destruction options on right side */}
                         <div className={'navBarDestr'}>
                             <div className={'navBarDestrLogo'}>
@@ -37,6 +39,13 @@ class Bubble extends Component {
                     </div>
                 </div>
             </div>
+            // <div>
+            //     <div className={'bubblePage'}>
+            //         <div className={'test1'}>helloworld</div>
+            //         <div className={'test2'}>test</div>
+            //         <div className={'test3'}>test3</div>
+            //     </div>
+            // </div>
         );
     }
 }
