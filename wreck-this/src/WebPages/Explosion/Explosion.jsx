@@ -39,13 +39,6 @@ class Explosion extends Component {
                     </div>
                 </div>
             </div>
-            // <div>
-            //     <div className={'bubblePage'}>
-            //         <div className={'test1'}>helloworld</div>
-            //         <div className={'test2'}>test</div>
-            //         <div className={'test3'}>test3</div>
-            //     </div>
-            // </div>
         );
     }
 }

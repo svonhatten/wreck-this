@@ -1,3 +1,3 @@
-import Bubble from './Bubble';
+import Explosion from './Explosion';
 
-export default Bubble;
+export default Explosion;
