@@ -3,6 +3,9 @@ import './styles.css';
 import bubble from './bubble.jpg';
 import rip from './rip.jpg';
 import explosion from './explosion.jpg';
+import bubbleImage from './bubbleImage.jpg.png';
+import ripImage from './ripImage.jpg.png';
+import explosionImage from './explosionImage.jpg.png';
 
 class Home extends Component {
     render() {
@@ -12,8 +15,10 @@ class Home extends Component {
                     {/* navigation bar */}
                     <div className={'navBarContainer'}>
                         {/* logo */}
-                        <div className={'navBarLogo'}>logo</div>
-                        <div className={'navBarText'}>WreckIt</div>
+                        <div className={'navBarLogoContainer'}>
+                            <div className={'navBarLogo'}>logo</div>
+                            <div className={'navBarText'}>WreckIt</div>
+                        </div>
                         {/* container for destruction options on right side */}
                         <div className={'navBarDestr'}>
                             <div className={'navBarDestrLogo'}>
@@ -37,14 +42,16 @@ class Home extends Component {
                     </div>
                     {/* bottom section (everything below title section) */}
                     <div className={'bodyContainer'}>
-                        <div className={'bodyTitleText'}>Choose Your Path</div>
-                        <div className={'bodyTitleSubtext'}>Pick the option that most closely relates to how you're feeling</div>
+                        <div>
+                            <div className={'bodyTitleText'}>Choose Your Path</div>
+                            <div className={'bodyTitleSubtext'}>Pick the option that most closely relates to how you're feeling</div>
+                        </div>
                         {/* destruction choices */}
                         <div className={'destrChoicesContainer'}>
                             {/* Bubbles */}
                             <div className={'bubbleContainer'}>
                                 <div className={'bubbleImage'}>
-                                    Image goes here
+                                    <img src={bubbleImage} alt="bubbleImage"/>
                                 </div>
                                 <div className={'bubbleText'}>Bubbles</div>
                                 <div className={'bubbleSubtext'}>Bubble out that which you hate the most!</div>
@@ -52,7 +59,7 @@ class Home extends Component {
                             {/* Tearing */}
                             <div className={'ripContainer'}>
                                 <div className={'ripImage'}>
-                                    Image goes here
+                                    <img src={ripImage} alt="ripImage"/>
                                 </div>
                                 <div className={'ripText'}>Rip</div>
                                 <div className={'ripSubtext'}>Rip the website to shreds!</div>
@@ -60,7 +67,7 @@ class Home extends Component {
                             {/* Explosion */}
                             <div className={'explosionContainer'}>
                                 <div className={'explosionImage'}>
-                                    Image goes here
+                                    <img src={explosionImage} alt="explosionImage"/>
                                 </div>
                                 <div className={'explosionText'}>EXPLOSIONS!</div>
                                 <div className={'explosionSubtext'}>Make this website go out with a BANG!</div>
