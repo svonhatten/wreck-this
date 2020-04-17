@@ -14,8 +14,10 @@ class Rip extends Component{
                 {/* nav bar */}
                 <div className={'navBarContainer'}>
                     {/* logo */}
-                    <div className={'navBarLogo'}>logo</div>
-                    <div className={'navBarText'}>WreckIt</div>
+                    <div className={'navBarLogoContainer'}>
+                        <div className={'navBarLogo'}>logo</div>
+                        <div className={'navBarText'}>WreckIt</div>
+                    </div>
                     {/* container for destruction options on right side */}
                     <div className={'navBarDestr'}>
                         <div className={'navBarDestrLogo'}>
