@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Link
 } from "react-router-dom";
 
 
@@ -26,8 +27,25 @@ export default function App() {
           <Route path="/Explosion">
             <ExplosionPage />
           </Route>
+          <Route path="*">
+            <NoMatch />
+          </Route>
         </Switch>
       </div>
     </Router>
+  );
+}
+
+
+function NoMatch() {
+  return (
+    <div>
+      <h1>
+        Oops! This pages doesn't exist!
+      </h1>
+      <h2>
+       <li><Link to="/">Click this link to go back home!</Link> </li>
+      </h2>
+    </div>
   );
 }
