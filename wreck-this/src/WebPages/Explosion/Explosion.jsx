@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-
 import {Link} from "react-router-dom";
-
 import './stylesExplosion.css';
 import bubble from './bubble3.jpg';
 import rip from './rip3.jpg';
@@ -14,7 +12,7 @@ class Explosion extends Component {
                 {/* container the entire explosion page */}
                 <div className={'explosionPage'}> 
                     {/* nav bar */}
-                    <div className={'navBarContainer'}>
+                    <div className={'navBarContainerExplosion'}>
                         {/* logo */}
                         <div className={'navBarLogoContainer'}>
                             <div className={'navBarLogo'}>logo</div>
@@ -41,7 +39,7 @@ class Explosion extends Component {
                         </div>
                     </div>
                     {/* main section */}
-                    <div className={'main'}>
+                    <div className={'mainExplosion'}>
                         <div className={'mainText'}>Blow it Up!</div>
                     </div>
                 </div>

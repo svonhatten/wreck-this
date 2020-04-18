@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-
 import {Link} from "react-router-dom";
-
-import './stylesBubble.css';
 import bubble from './bubble1.jpg';
 import rip from './rip1.jpg';
 import explosion from './explosion1.jpg';
+import './stylesBubble.css';
 
 class Bubble extends Component {
     render() { 
@@ -14,7 +12,7 @@ class Bubble extends Component {
                 {/* container the entire bubble page */}
                 <div className={'bubblePage'}> 
                     {/* nav bar */}
-                    <div className={'navBarContainer'}>
+                    <div className={'navBarContainerBubble'}>
                         {/* logo */}
                         <div className={'navBarLogoContainer'}>
                             <div className={'navBarLogo'}>logo</div>
@@ -41,18 +39,11 @@ class Bubble extends Component {
                         </div>
                     </div>
                     {/* main section */}
-                    <div className={'main'}>
+                    <div className={'mainBubble'}>
                         <div className={'mainText'}>Bubble It Out!</div>
                     </div>
                 </div>
             </div>
-            // <div>
-            //     <div className={'bubblePage'}>
-            //         <div className={'test1'}>helloworld</div>
-            //         <div className={'test2'}>test</div>
-            //         <div className={'test3'}>test3</div>
-            //     </div>
-            // </div>
         );
     }
 }

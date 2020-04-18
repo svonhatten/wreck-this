@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 
-.navBarContainer {
+.navBarContainerExplosion {
     flex: 1.1;
     display: flex;
     flex-direction: row;
@@ -71,7 +71,7 @@
     text-decoration-color: #DE4242;
 }
 
-.main {
+.mainExplosion {
     flex: 13;
     display: flex;
     justify-content: center;

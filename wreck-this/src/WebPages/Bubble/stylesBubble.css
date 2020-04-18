@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 
-.navBarContainer {
+.navBarContainerBubble {
     flex: 1.1;
     display: flex;
     flex-direction: row;
@@ -71,7 +71,7 @@
     text-decoration-color: #71C7EC;
 }
 
-.main {
+.mainBubble {
     flex: 13;
     display: flex;
     justify-content: center;
@@ -84,23 +84,3 @@
     font-size: 3.2rem;
     font-weight: bold;
 }
-
-
-
-/* .test1 {
-    background-color: blue;
-    flex: 1
-
-}
-
-.test2 {
-    background-color: purple;
-    flex: 2
-
-}
-
-.test3 {
-    background-color: red;
-    flex: 3
-
-} */
