@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import './styles.css';
+
+import {Link} from "react-router-dom";
+
+import './stylesExplosion.css';
 import bubble from './bubble3.jpg';
 import rip from './rip3.jpg';
 import explosion from './explosion3.jpg';
@@ -22,15 +25,19 @@ class Explosion extends Component {
                             <div className={'navBarDestrLogo'}>
                                 <img src={bubble} alt="bubble"/>
                             </div>
-                            <div className={'navBarDestrText'}>Bubbles</div>
+                            <div className={'navBarDestrText'}>
+                            <li> <Link to="/bubble">Bubble</Link> </li>
+                            </div>
                             <div className={'navBarDestrLogo'}>
                                 <img src={rip} alt="rip"/>
                             </div>
-                            <div className={'navBarDestrText'}>Rip</div>
+                            <div className={'navBarDestrText'}> Rip </div>
                             <div className={'navBarDestrLogo'}>
                                 <img src={explosion} alt="explosion"/>
                             </div>
-                            <div className={'navBarDestrText'}>Explosion</div>
+                            <div className={'navBarDestrText'}>
+                                <li> <Link to="/explosion">Explosion</Link> </li>
+                            </div>
                         </div>
                     </div>
                     {/* main section */}

@@ -1,17 +1,17 @@
-.explosionPage {
+.bubblePage {
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .navBarContainer {
-    flex: 1;
+    flex: 1.1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #7C0A02;
-    box-shadow: 0 5px 5px 5px rgb(209, 56, 45);
+    background-color: #005073;
+    box-shadow: 0 5px 5px 5px #189AD3;
     position:relative;
     z-index: 10; 
 }
@@ -68,7 +68,7 @@
     margin-right: 20px;
     text-decoration-line: underline;
     text-decoration-style: solid;
-    text-decoration-color: #DE4242;
+    text-decoration-color: #71C7EC;
 }
 
 .main {
@@ -76,7 +76,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, #F1BC31 , #7C0A02);
+    background-image: linear-gradient(to bottom, #71C7EC, #005073);
 }
 
 .mainText {
@@ -84,3 +84,23 @@
     font-size: 3.2rem;
     font-weight: bold;
 }
+
+
+
+/* .test1 {
+    background-color: blue;
+    flex: 1
+
+}
+
+.test2 {
+    background-color: purple;
+    flex: 2
+
+}
+
+.test3 {
+    background-color: red;
+    flex: 3
+
+} */

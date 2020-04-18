@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import './styles.css';
+
+import {Link} from "react-router-dom";
+
+import './stylesBubble.css';
 import bubble from './bubble1.jpg';
 import rip from './rip1.jpg';
 import explosion from './explosion1.jpg';
 
 class Bubble extends Component {
-    render() {
+    render() { 
         return (
             <div>
                 {/* container the entire bubble page */}
@@ -22,15 +25,19 @@ class Bubble extends Component {
                             <div className={'navBarDestrLogo'}>
                                 <img src={bubble} alt="bubble"/>
                             </div>
-                            <div className={'navBarDestrText'}>Bubbles</div>
+                            <div className={'navBarDestrText'}>
+                            <li> <Link to="/bubble">Bubble</Link> </li>
+                            </div>
                             <div className={'navBarDestrLogo'}>
                                 <img src={rip} alt="rip"/>
                             </div>
-                            <div className={'navBarDestrText'}>Rip</div>
+                            <div className={'navBarDestrText'}> Rip </div>
                             <div className={'navBarDestrLogo'}>
                                 <img src={explosion} alt="explosion"/>
                             </div>
-                            <div className={'navBarDestrText'}>Explosion</div>
+                            <div className={'navBarDestrText'}>
+                                <li> <Link to="/explosion">Explosion</Link> </li>
+                            </div>
                         </div>
                     </div>
                     {/* main section */}
