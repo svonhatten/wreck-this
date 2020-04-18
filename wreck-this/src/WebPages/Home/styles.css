@@ -1,0 +1,221 @@
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navBarContainer {
+    /* height: 60px; */
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B2929;
+    box-shadow: 0 5px 5px 5px #000000;
+    position:relative;
+    z-index: 10;
+}
+
+.navBarLogoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navBarLogo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #C18BEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.navBarText {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.navBarDestr {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: space-between;
+    margin-right: 20px;
+}
+
+.navBarDestrLogo {
+    height: 40px;
+    max-width: 40px;
+    border-radius: 20px;
+    /* background-color: #C18BEF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.navBarDestrText {
+    color: #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #C18BEF;
+}
+
+.titleContainer {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #463E3E, #000000);
+    
+}
+
+.titleText {
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #C18BEF;
+    font-size: 4.0rem;
+    padding-bottom: 15px;
+}
+
+.titleSubtext {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.bodyContainer {
+    height: 100vh;
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    background-color: white;
+}
+
+.bodyTitleText {
+    color: black;
+    font-size: 2.0rem;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.bodyTitleSubtext {
+    color: #707070;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    margin-bottom: 65px;
+}
+
+.destrChoicesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.bubbleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    margin-bottom: 50px;
+}
+
+.bubbleImage {
+    height: 244.5px;
+    width: 427px;
+    border-radius: 30px;
+    /* background-color: lightblue; */
+}
+
+.bubbleText {
+    color: black;
+    font-size: 1.75rem;
+    margin-top: 10px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #107DAC;
+}
+
+.bubbleSubtext {
+    color: #707070;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.ripContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    margin-bottom: 50px;
+}
+
+.ripImage {
+    height: 244.5px;
+    width: 427px;
+    border-radius: 30px;
+    /* background-color: lightgreen; */
+}
+
+.ripText {
+    color: black;
+    font-size: 1.75rem;
+    margin-top: 10px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #0B6623;
+}
+
+.ripSubtext {
+    color: #707070;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.explosionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    margin-bottom: 50px;
+}
+
+.explosionImage {
+    height: 244.5px;
+    width: 427px;
+    border-radius: 30px;
+    /* background-color: pink; */
+}
+
+.explosionText {
+    color: black;
+    font-size: 1.75rem;
+    margin-top: 10px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #DE4242;
+}
+
+.explosionSubtext {
+    color: #707070;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
