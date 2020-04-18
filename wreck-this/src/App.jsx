@@ -6,8 +6,9 @@ import {
 } from "react-router-dom";
 
 
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Home from './WebPages/Home/Home';
 import BubblePage from './WebPages/Bubble/Bubble';
 import ExplosionPage from './WebPages/Explosion/Explosion';
 
@@ -16,6 +17,9 @@ export default function App() {
     <Router>
       <div>
         <Switch>
+          <Route exact path="/Home">
+            <Home />
+          </Route>
           <Route exact path="/Bubble">
             <BubblePage />
           </Route>

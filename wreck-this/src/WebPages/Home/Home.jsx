@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles.css';
+import './stylesHome.css';
 import bubble from './bubble.jpg';
 import rip from './rip.jpg';
 import explosion from './explosion.jpg';
@@ -13,7 +13,7 @@ class Home extends Component {
             <div>
                 <div className={'home'}>
                     {/* navigation bar */}
-                    <div className={'navBarContainer'}>
+                    <div className={'navBarContainerHome'}>
                         {/* logo */}
                         <div className={'navBarLogoContainer'}>
                             <div className={'navBarLogo'}>logo</div>
@@ -36,12 +36,12 @@ class Home extends Component {
                         </div>
                     </div>
                     {/* title section (the black part of screen) */}
-                    <div className={'titleContainer'}>
+                    <div className={'titleContainerHome'}>
                         <div className={'titleText'}>Wreck This Website</div>
                         <div className={'titleSubtext'}>*   *   *   The site to relieve all your stress   *   *   *</div>
                     </div>
                     {/* bottom section (everything below title section) */}
-                    <div className={'bodyContainer'}>
+                    <div className={'bodyContainerHome'}>
                         <div>
                             <div className={'bodyTitleText'}>Choose Your Path</div>
                             <div className={'bodyTitleSubtext'}>Pick the option that most closely relates to how you're feeling</div>
