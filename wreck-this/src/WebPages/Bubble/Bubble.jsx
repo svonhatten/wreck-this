@@ -16,7 +16,9 @@ class Bubble extends Component {
                         {/* logo */}
                         <div className={'navBarLogoContainer'}>
                             <div className={'navBarLogo'}>logo</div>
-                            <div className={'navBarText'}>WreckIt</div>
+                            <div className={'navBarText'}>
+                                <li> <Link to="/">Wreck it</Link> </li>
+                            </div>
                         </div>
                         {/* container for destruction options on right side */}
                         <div className={'navBarDestr'}>

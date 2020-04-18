@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from "react-router-dom";
 import './stylesHome.css';
 import bubble from './bubble.jpg';
 import rip from './rip.jpg';
@@ -24,15 +25,19 @@ class Home extends Component {
                             <div className={'navBarDestrLogo'}>
                                 <img src={bubble} alt="bubble"/>
                             </div>
-                            <div className={'navBarDestrText'}>Bubbles</div>
+                            <div className={'navBarDestrText'}>
+                                <li> <Link to="/bubble">Bubble</Link> </li>
+                            </div>
                             <div className={'navBarDestrLogo'}>
                                 <img src={rip} alt="rip"/>
                             </div>
-                            <div className={'navBarDestrText'}>Rip</div>
+                            <div className={'navBarDestrText'}> Rip </div>
                             <div className={'navBarDestrLogo'}>
                                 <img src={explosion} alt="explosion"/>
                             </div>
-                            <div className={'navBarDestrText'}>Explosion</div>
+                            <div className={'navBarDestrText'}>
+                                <li> <Link to="/explosion">Explosion</Link> </li>
+                            </div>
                         </div>
                     </div>
                     {/* title section (the black part of screen) */}
@@ -53,7 +58,9 @@ class Home extends Component {
                                 <div className={'bubbleImage'}>
                                     <img src={bubbleImage} alt="bubbleImage"/>
                                 </div>
-                                <div className={'bubbleText'}>Bubbles</div>
+                                <div className={'explosionText'}>
+                                    <li> <Link to="/bubble">Bubbles</Link> </li>
+                                </div>
                                 <div className={'bubbleSubtext'}>Bubble out that which you hate the most!</div>
                             </div>
                             {/* Tearing */}
@@ -69,7 +76,9 @@ class Home extends Component {
                                 <div className={'explosionImage'}>
                                     <img src={explosionImage} alt="explosionImage"/>
                                 </div>
-                                <div className={'explosionText'}>EXPLOSIONS!</div>
+                                <div className={'explosionText'}>
+                                    <li> <Link to="/explosion">EXPLOSIONS!!!!</Link> </li>
+                                </div>
                                 <div className={'explosionSubtext'}>Make this website go out with a BANG!</div>
                             </div>
                         </div>

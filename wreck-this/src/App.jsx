@@ -17,7 +17,7 @@ export default function App() {
     <Router>
       <div>
         <Switch>
-          <Route exact path="/Home">
+          <Route exact path="/">
             <Home />
           </Route>
           <Route exact path="/Bubble">
