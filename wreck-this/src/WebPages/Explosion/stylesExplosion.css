@@ -1,22 +1,25 @@
-.bubblePage {
-    height: 100%;
-    width: 100%;
+.explosionPage {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-
 }
 
-.navBarContainer {
-    height: 60px;
+.navBarContainerExplosion {
+    flex: 1.1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #005073;
-    box-shadow: 0 5px 5px 5px #189AD3;
+    background-color: #7C0A02;
+    box-shadow: 0 5px 5px 5px rgb(209, 56, 45);
     position:relative;
-    z-index: 10;
+    z-index: 10; 
+}
+
+.navBarLogoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .navBarLogo {
@@ -28,12 +31,13 @@
     justify-content: center;
     align-items: center;
     margin-left: 15px;
-}
+} 
 
 .navBarText {
     color: white;
     font-size: 1.2rem;
-    margin-right: 1150px;
+    margin-left: 15px;
+    margin-top: 10px;
 }
 
 .navBarDestr {
@@ -41,15 +45,14 @@
     flex-direction: row;
     justify-content: right;
     align-items: space-between;
-    /* background-color: blue; */
     margin-right: 20px;
-}
+ } 
 
 .navBarDestrLogo {
     height: 40px;
     max-width: 40px;
     border-radius: 20px;
-    /* background-color: #C18BEF; */
+    background-color: #C18BEF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,15 +68,15 @@
     margin-right: 20px;
     text-decoration-line: underline;
     text-decoration-style: solid;
-    text-decoration-color: #71C7EC;
+    text-decoration-color: #DE4242;
 }
 
-.main {
-    height: 830px;
+.mainExplosion {
+    flex: 13;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, #71C7EC, #005073);
+    background-image: linear-gradient(to bottom, #F1BC31 , #7C0A02);
 }
 
 .mainText {

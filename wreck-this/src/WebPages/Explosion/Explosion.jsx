@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
-import bubble from './bubble1.jpg';
-import rip from './rip1.jpg';
-import explosion from './explosion1.jpg';
-import './stylesBubble.css';
+import './stylesExplosion.css';
+import bubble from './bubble3.jpg';
+import rip from './rip3.jpg';
+import explosion from './explosion3.jpg';
 
-class Bubble extends Component {
-    render() { 
+class Explosion extends Component {
+    render() {
         return (
             <div>
-                {/* container the entire bubble page */}
-                <div className={'bubblePage'}> 
+                {/* container the entire explosion page */}
+                <div className={'explosionPage'}> 
                     {/* nav bar */}
-                    <div className={'navBarContainerBubble'}>
+                    <div className={'navBarContainerExplosion'}>
                         {/* logo */}
                         <div className={'navBarLogoContainer'}>
                             <div className={'navBarLogo'}>logo</div>
@@ -41,8 +41,8 @@ class Bubble extends Component {
                         </div>
                     </div>
                     {/* main section */}
-                    <div className={'mainBubble'}>
-                        <div className={'mainText'}>Bubble It Out!</div>
+                    <div className={'mainExplosion'}>
+                        <div className={'mainText'}>Blow it Up!</div>
                     </div>
                 </div>
             </div>
@@ -50,4 +50,4 @@ class Bubble extends Component {
     }
 }
 
-export default Bubble;
+export default Explosion;
