@@ -26,17 +26,19 @@ class Home extends Component {
                                 <img src={bubble} alt="bubble"/>
                             </div>
                             <div className={'navBarDestrText'}>
-                                <li> <Link to="/bubble">Bubble</Link> </li>
+                                <Link to="/bubble">Bubble</Link> 
                             </div>
                             <div className={'navBarDestrLogo'}>
                                 <img src={rip} alt="rip"/>
                             </div>
-                            <div className={'navBarDestrText'}> Rip </div>
+                            <div className={'navBarDestrText'}> 
+                                <Link to="/rip">Rip</Link>
+                            </div>
                             <div className={'navBarDestrLogo'}>
                                 <img src={explosion} alt="explosion"/>
                             </div>
                             <div className={'navBarDestrText'}>
-                                <li> <Link to="/explosion">Explosion</Link> </li>
+                                <Link to="/explosion">Explosion</Link>
                             </div>
                         </div>
                     </div>
@@ -59,7 +61,7 @@ class Home extends Component {
                                     <img src={bubbleImage} alt="bubbleImage"/>
                                 </div>
                                 <div className={'explosionText'}>
-                                    <li> <Link to="/bubble">Bubbles</Link> </li>
+                                    <Link to="/bubble">Bubbles</Link> 
                                 </div>
                                 <div className={'bubbleSubtext'}>Bubble out that which you hate the most!</div>
                             </div>
@@ -68,7 +70,9 @@ class Home extends Component {
                                 <div className={'ripImage'}>
                                     <img src={ripImage} alt="ripImage"/>
                                 </div>
-                                <div className={'ripText'}>Rip</div>
+                                <div className={'ripText'}>
+                                    <Link to="/rip"> Rip the Website to shreds!</Link>
+                                </div>
                                 <div className={'ripSubtext'}>Rip the website to shreds!</div>
                             </div>
                             {/* Explosion */}
@@ -77,7 +81,7 @@ class Home extends Component {
                                     <img src={explosionImage} alt="explosionImage"/>
                                 </div>
                                 <div className={'explosionText'}>
-                                    <li> <Link to="/explosion">EXPLOSIONS!!!!</Link> </li>
+                                    <Link to="/explosion">EXPLOSIONS!!!!</Link>
                                 </div>
                                 <div className={'explosionSubtext'}>Make this website go out with a BANG!</div>
                             </div>

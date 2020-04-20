@@ -1,0 +1,86 @@
+.ripPage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navBarContainerRip {
+    flex: 1.1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0B6623;
+    box-shadow: 0 5px 5px 5px #4BAA58;
+    position:relative;
+    z-index: 10;
+}
+
+.navBarLogoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navBarLogo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #C18BEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.navBarText {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.navBarDestr {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: space-between;
+    margin-right: 20px;
+}
+
+.navBarDestrLogo {
+    height: 40px;
+    max-width: 40px;
+    border-radius: 20px;
+    /* background-color: #C18BEF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.navBarDestrText {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #98FB98;
+}
+
+.mainRip {
+    flex: 13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #98FB98, #0B6623);
+}
+
+.mainText {
+    color: white;
+    font-size: 3.2rem;
+    font-weight: bold;
+}

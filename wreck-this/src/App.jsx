@@ -12,6 +12,7 @@ import './App.css';
 import Home from './WebPages/Home/Home';
 import BubblePage from './WebPages/Bubble/Bubble';
 import ExplosionPage from './WebPages/Explosion/Explosion';
+import RipPage from './WebPages/Rip/Rip';
 
 export default function App() {
   return (
@@ -23,6 +24,9 @@ export default function App() {
           </Route>
           <Route exact path="/Bubble">
             <BubblePage />
+          </Route>
+          <Route exact path="/Rip">
+            <RipPage />
           </Route>
           <Route path="/Explosion">
             <ExplosionPage />
@@ -44,7 +48,7 @@ function NoMatch() {
         Oops! This pages doesn't exist!
       </h1>
       <h2>
-       <li><Link to="/">Click this link to go back home!</Link> </li>
+       <Link to="/">Click this link to go back home!</Link>
       </h2>
     </div>
   );
