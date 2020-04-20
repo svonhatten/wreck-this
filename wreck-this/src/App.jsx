@@ -12,6 +12,7 @@ import './App.css';
 import Home from './WebPages/Home/Home';
 import BubblePage from './WebPages/Bubble/Bubble';
 import ExplosionPage from './WebPages/Explosion/Explosion';
+import RipPage from './WebPages/Rip/Rip';
 
 export default function App() {
   return (
@@ -27,7 +28,7 @@ export default function App() {
           <Route path="/Explosion">
             <ExplosionPage />
           </Route>
-          <Route path="*">
+          <Route path="/Rip">
             <NoMatch />
           </Route>
         </Switch>

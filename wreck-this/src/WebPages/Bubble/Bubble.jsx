@@ -6,6 +6,33 @@ import explosion from './explosion1.jpg';
 import './stylesBubble.css';
 
 class Bubble extends Component {
+
+    constructor() {
+        super()
+        this.onClickAnimate = this.onClickAnimate.bind(this)
+       
+        const img0 = require('/Users/jean-lucputter/Documents/Client-side/wreck-this/wreck-this/src/WebPages/Bubble/backgroung.png');
+        const img1 = require('/Users/jean-lucputter/Documents/Client-side/wreck-this/wreck-this/src/WebPages/Bubble/bubblegif.gif');
+
+        this.state ={
+            index:0,
+            imageList:[img0,img1]
+        }
+    }
+
+    onClickAnimate(){
+        if (this.state.index + 1 === this.state.imageList.length){
+            this.setState({
+                index:0
+            })
+        }else{
+            this.setState({
+                index:this.state.index + 1
+            })
+        }
+    }
+
+
     render() { 
         return (
             <div>
@@ -16,8 +43,7 @@ class Bubble extends Component {
                         {/* logo */}
                         <div className={'navBarLogoContainer'}>
                             <div className={'navBarLogo'}>logo</div>
-                            <div className={'navBarText'}>
-                                <li> <Link to="/">Wreck it</Link> </li>
+                            <div className={'navBarText'}><Link to="/" className={'linktext'}>Wreck it</Link>
                             </div>
                         </div>
                         {/* container for destruction options on right side */}
@@ -26,28 +52,29 @@ class Bubble extends Component {
                                 <img src={bubble} alt="bubble"/>
                             </div>
                             <div className={'navBarDestrText'}>
-                            <li> <Link to="/bubble">Bubble</Link> </li>
+                             <Link to="/bubble" className={'linktext'}>Bubble</Link>
                             </div>
                             <div className={'navBarDestrLogo'}>
                                 <img src={rip} alt="rip"/>
                             </div>
-                            <div className={'navBarDestrText'}> Rip </div>
+                            <div className={'navBarDestrText'}> 
+                            <Link to="/rip" className={'linktext'}>Rip</Link>
+                            </div>
                             <div className={'navBarDestrLogo'}>
                                 <img src={explosion} alt="explosion"/>
                             </div>
                             <div className={'navBarDestrText'}>
-                                <li> <Link to="/explosion">Explosion</Link> </li>
+                                <Link to="/explosion"className={'linktext'}>Explosion</Link> 
                             </div>
                         </div>
                     </div>
                     {/* main section */}
-                    <div className={'mainBubble'}>
-                        <div className={'mainText'}>Bubble It Out!</div>
+                    <div className={'mainBubble'} onClick={this.onClickAnimate}>
+                        <img className={'imageback'} src={this.state.imageList[this.state.index]} alt=""/>
                     </div>
                 </div>
-            </div>
+                </div>
         );
     }
 }
-
 export default Bubble;

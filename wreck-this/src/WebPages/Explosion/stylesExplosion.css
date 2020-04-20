@@ -84,3 +84,11 @@
     font-size: 3.2rem;
     font-weight: bold;
 }
+
+
+.linktext{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #F1BC31;
+    
+}

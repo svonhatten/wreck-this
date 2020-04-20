@@ -17,7 +17,7 @@ class Explosion extends Component {
                         <div className={'navBarLogoContainer'}>
                             <div className={'navBarLogo'}>logo</div>
                             <div className={'navBarText'}>
-                                <li> <Link to="/">Wreck it</Link> </li>
+                                <Link to="/" className={'linktext'}>Wreck it</Link> 
                             </div>
                         </div>
                         {/* container for destruction options on right side */}
@@ -26,7 +26,7 @@ class Explosion extends Component {
                                 <img src={bubble} alt="bubble"/>
                             </div>
                             <div className={'navBarDestrText'}>
-                            <li> <Link to="/bubble">Bubble</Link> </li>
+                                <Link to="/bubble" className={'linktext'}>Bubble</Link> 
                             </div>
                             <div className={'navBarDestrLogo'}>
                                 <img src={rip} alt="rip"/>
@@ -36,7 +36,7 @@ class Explosion extends Component {
                                 <img src={explosion} alt="explosion"/>
                             </div>
                             <div className={'navBarDestrText'}>
-                                <li> <Link to="/explosion">Explosion</Link> </li>
+                               <Link to="/explosion" className={'linktext'}>Explosion</Link> 
                             </div>
                         </div>
                     </div>
